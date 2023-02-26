@@ -42,7 +42,7 @@ export const ReviewListMemberCardIcon = styled.figure<{ colour: ThemeColours }>`
 `;
 
 export const ReviewListMemberCardContent = styled.div`
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: flex-start;
 `;
