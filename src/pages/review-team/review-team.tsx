@@ -44,7 +44,7 @@ export function ReviewTeamPage(): JSX.Element {
                     <typography.Heading5>
                       {member.firstName} {member.lastName}
                     </typography.Heading5>
-                    <typography.Caption1>{member.jobTitle}</typography.Caption1>
+                    <typography.Caption1 colour='accent-2'>{member.jobTitle}</typography.Caption1>
                   </ReviewListMemberCardContent>
                 </ReviewListMemberCard>
               </ReviewTeamListItem>
